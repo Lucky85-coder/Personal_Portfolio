@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MyBackUP's</title>
+
+    <link rel="shortcut icon" href="thor.jpg" type="image/x-icon">
+    <style>
+        /* body{
+            background-image: url(Screenshot\ 2025-02-06\ 183011.png);
+            background-repeat: no-repeat;
+        } */
+       
+
+        h1{
+            text-align: center;
+            /* color:black;
+            background-color: gray;
+            margin: auto;
+            margin-bottom: 20px;
+            padding: 2px;
+            height: 40px;
+            width: 500px;
+            border: 3px solid rgb(10, 10, 10);
+            border-radius: 20px; */
+        }
+        h1 {
+            border-bottom: 3px solid;
+            width: 550px;
+            margin: auto;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        form {
+            text-align: center;
+            border-radius: 25px;
+            margin: auto;
+            border: 3px solid black;
+            padding: 10px;
+            width: 600px;
+            /* text-align: left; */
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+
+        }
+
+        /* div{
+            background-color: white;
+        }
+       
+        input{
+            background-color: white;
+        }
+*/
+        footer {
+            border-top: 3px solid;
+            border-bottom: 3px solid;
+            margin: auto;
+            width: 550px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to MyBackUP's</h1>
+    </header>
+    <main>
+        <form action="post">
+            <div>
+                <h2>Create New Account</h2>
+            </div>
+            <div>Name:<input type="text" name="Username" placeholder="Enter Username" required></div>
+            <div> Password: <input type="password" name="password" placeholder="Enter Password" required></div>
+            <div>Email: <input type=email" name="email" placeholder="Enter email" required></div>
+            <div> Mobile No.: <input type="tel" name="number" pattern="[1-9]{10}" placeholder="Enter No. " required>
+            </div>Gender:
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label>
+            </div>
+            <div>Birthdate: <input type="date" name="Birthdate"></div>
+            <div>Upload Aadharcard: <input type="file" name="fileupload"></div>
+            <div><textarea name="Discribe" rows="6" cols="40" placeholder="Discribe Yourself....."></textarea></div>
+            <input type="checkbox" required> Agree the Terms & Condition's
+            <div><input type="submit" value="Submit"></div>
+            <div>Already having account...?<button type="button"> Login</button>
+            </div>
+        </form>
+    </main>
+    <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vero rerum quaerat illum quibusdam
+        cupiditate amet, voluptas perferendis autem sed magni, vel saepe deleniti impedit iure quos ullam dolorem
+        nostrum, natus sint? Voluptates, magni aut? </footer>
+</body>
+
+</html>
